@@ -99,7 +99,7 @@ export default function App() {
         {isModel.type == 'joinnow' && <JoinNow/>}        
         {isModel.type == 'employer' && <EmployerSignUpForm />}
         {isModel.type == 'jobseeker' && <JobSeekerSignUpForm/>}  
-        {isModel.type == 'test' && <testSignUpForm />}      
+            
       </>
     </Router>
   );
