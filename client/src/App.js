@@ -95,13 +95,11 @@ export default function App() {
           {/* <Redirect from="*" to="/" /> */}
         </Switch>
         <Footer /> 
-        {isModel.type == 'login' && <LoginForm />}
-        
-        {isModel.type == 'joinnow' && <JoinNow/>}
-        
+        {isModel.type == 'login' && <LoginForm />}        
+        {isModel.type == 'joinnow' && <JoinNow/>}        
         {isModel.type == 'employer' && <EmployerSignUpForm />}
-        {isModel.type == 'jobseeker' && <JobSeekerSignUpForm/>}
-        
+        {isModel.type == 'jobseeker' && <JobSeekerSignUpForm/>}  
+        {isModel.type == 'test' && <testSignUpForm />}      
       </>
     </Router>
   );

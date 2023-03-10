@@ -11,6 +11,8 @@ import { userService } from "../../../services";
 import { jobService } from "../../../services";
 
 
+
+
 export const ProfileGlobal = () => {
  
   const [isEdit, setIsEdit] = useState(false);
