@@ -1,0 +1,77 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?2b83f2c36f92ff61febb99ff889fca7e") format("truetype"),
+url("./flaticon.woff?2b83f2c36f92ff61febb99ff889fca7e") format("woff"),
+url("./flaticon.woff2?2b83f2c36f92ff61febb99ff889fca7e") format("woff2"),
+url("./flaticon.eot?2b83f2c36f92ff61febb99ff889fca7e#iefix") format("embedded-opentype"),
+url("./flaticon.svg?2b83f2c36f92ff61febb99ff889fca7e#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "click": "\f101",
+    "transparency": "\f102",
+    "guarantee": "\f103",
+    "settings": "\f104",
+    "first-aid-kit": "\f105",
+    "reception": "\f106",
+    "delivery-truck": "\f107",
+    "manufacturer": "\f108",
+    "safety": "\f109",
+    "placeholder": "\f10a",
+    "clock": "\f10b",
+    "mortarboard": "\f10c",
+    "maple": "\f10d",
+);
+
+.flaticon-click:before {
+    content: map-get($flaticon-map, "click");
+}
+.flaticon-transparency:before {
+    content: map-get($flaticon-map, "transparency");
+}
+.flaticon-guarantee:before {
+    content: map-get($flaticon-map, "guarantee");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-first-aid-kit:before {
+    content: map-get($flaticon-map, "first-aid-kit");
+}
+.flaticon-reception:before {
+    content: map-get($flaticon-map, "reception");
+}
+.flaticon-delivery-truck:before {
+    content: map-get($flaticon-map, "delivery-truck");
+}
+.flaticon-manufacturer:before {
+    content: map-get($flaticon-map, "manufacturer");
+}
+.flaticon-safety:before {
+    content: map-get($flaticon-map, "safety");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-mortarboard:before {
+    content: map-get($flaticon-map, "mortarboard");
+}
+.flaticon-maple:before {
+    content: map-get($flaticon-map, "maple");
+}

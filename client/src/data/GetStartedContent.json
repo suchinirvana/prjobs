@@ -1,0 +1,20 @@
+{   
+    "section1": 
+      {
+        
+        "description": "<h1>Easy to Get Started</h1><h4>Documentation</h4><p>LMIA applications are detailed and require lots of documentation and statistical tabulation. We help you with the entire process.</p><h4>Resume Writing </h4><p>Canada can be a very attractive place to work. But how to get started? How do you write a Canadian resume and is different from an Indian one? </p>",
+        "image": "started-img-1.jpg",
+        "buttonTitle": "",
+        "url": ""
+      },
+      
+    "section2": 
+    {
+
+      "description": " <h4>Job Application </h4><p>Normally the process of applying for a job in Canada can be a time staking one, we personalize your experience and match you with the right employers. </p><h4>Consulting</h4><p>Whether you are here on a work permit , or here as a student or even a visitor, our expert consultants will guide you through every step on the way here. </p>",
+      "image": "started-img-2.jpg",
+      "buttonTitle": "View Packages",
+      "url": "#"
+    }
+    
+  }
